@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>MyRozraha</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <style type="text/css">
+        TD.leftcol {
+            width: 110px; /* Ширина левой колонки с рисунком */
+            vertical-align: top; /* Выравнивание по верхнему краю */
+        }
+    </style>
+</head>
+<body>
+<div th:insert="blocks/sidebar :: sidebar"></div>
+<header th:insert="blocks/header :: header"></header>
+<main style="margin-left: 220px;">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/uk_UA/sdk.js#xfbml=1&version=v14.0" nonce="pg5FNeZG"></script>
+    <h1 style="padding-top: 72px ; padding-left: 20px"  >Код Гіас</h1>
+    <table width="100%" cellspacing="0" cellpadding="20">
+        <tr>
+            <td class="leftcol"><img src="https://m.media-amazon.com/images/I/71lfpyqBZJL._AC_SY679_.jpg" width="350"
+                                     height="500" border="0" alt="" ></td>
+            <td valign="top"><p><i>Тип</i> : ТВ Серіал</p>
+                <p><i>Єпізоди</i> : 25</p>
+                <p><i>Статус</i>  : Вийшов</p>
+                <p><i>Жанр</i> : Воєне, Меха, Супер сила, Фантастика, Школа, Экшен</p>
+                <p><i>Випуск</i>  : з 6 вересня 2006 по 29 липня 2007</p>
+                <p><i>Студія</i>  : Sunrise</p>
+                <p><i>Режисер</i>  : Горо Танигути</p>
+            </td>
+        </tr>
+    </table>
+    <p style="padding-left: 20px" >Це аніме розповість історію молодого Лелуш, який є спадкоємцем престолу імператора. Через важку війну, він втратив всю свою сім'ю, став сиротою. Оповідання бере початок, коли Британія захоплює третину світу, батьківщина Лелуша – Японія, стає маленькою країною, яку прозвали «Зоною 13». Хлопчик, на могилі батьків, дає обіцянку, що мститиметься за їхню смерть. Одного разу, під час однієї з бійок, головний герой зустрічає не зовсім звичайну дівчину, яка представляється С.С., вона пропонує йому дар, званий «Гіас» – здатність підпорядковувати волю інших людей, що відповідає його роду. І він вирішує вступити в опір. Тепер йому доведеться вести подвійне життя – студента в його академії та таємничого бійця у масці на війні. Хоч це йому даватиметься не легко, адже його найкращий друг, який завжди підтримував, спрямовував на правильний шлях, переходить на протилежний бік.</p>
+    <br><div align="center">
+    <div style="float:center; background:#000000; padding:3px 0 3px 0; width:700px;"><center><span style="font:12px Arial; color:#ffffff; font-weight:bold; padding:0 5px 0 0;">Вибір серії:</span><select id="series" size="1" onchange="javascript:if(document.getElementById('film_main')) document.getElementById('film_main').src=this.value;">
+        <option value="https://www.youtube.com/embed/5AFL2QFreYU">1 серія</option>
+        <option value="https://www.youtube.com/embed/AmbyLnWksd8">2 серія</option>
+        <option value="https://www.youtube.com/embed/vSU3qup4bYk">3 серія</option>
+        <option value="https://www.youtube.com/embed/lUHmuf2sD9Y">4 серія</option>
+        <option value="https://www.youtube.com/embed/6UoYRMytzpo">5 серія</option>
+        <option value="https://www.youtube.com/embed/S1-9t00FDBU">6 серія</option>
+        <option value="https://www.youtube.com/embed/S1-9t00FDBU">7 серія</option>
+        <option value="https://www.youtube.com/embed/S1-9t00FDBU">8 серія</option>
+        <option value="https://www.youtube.com/embed/S1-9t00FDBU">9 серія</option>
+        <option value="https://www.youtube.com/embed/S1-9t00FDBU">10 серія</option>
+        <option value="https://www.youtube.com/embed/S1-9t00FDBU">11 серія</option>
+        <option value="https://www.youtube.com/embed/S1-9t00FDBU">12 серія</option>
+        <option value="https://www.youtube.com/embed/S1-9t00FDBU">13 серія</option>
+        <option value="https://www.youtube.com/embed/S1-9t00FDBU">14 серія</option>
+        <option value="https://www.youtube.com/embed/S1-9t00FDBU">15 серія</option>
+        <option value="https://www.youtube.com/embed/S1-9t00FDBU">16 серія</option>
+        <option value="https://www.youtube.com/embed/S1-9t00FDBU">17 серія</option>
+        <option value="https://www.youtube.com/embed/S1-9t00FDBU">18 серія</option>
+        <option value="https://www.youtube.com/embed/S1-9t00FDBU">19 серія</option>
+        <option value="https://www.youtube.com/embed/S1-9t00FDBU">20 серія</option>
+        <option value="https://www.youtube.com/embed/S1-9t00FDBU">21 серія</option>
+        <option value="https://www.youtube.com/embed/S1-9t00FDBU">22 серія</option>
+        <option value="https://www.youtube.com/embed/S1-9t00FDBU">23 серія</option>
+        <option value="https://www.youtube.com/embed/S1-9t00FDBU">24 серія</option>
+        <option value="https://www.youtube.com/embed/S1-9t00FDBU">25 серія</option>
+    </select>
+    </center></div>
+    <div style="float:center; padding:0 0 0px 0;"><iframe name="film_main" id="film_main" src="https://www.youtube.com/embed/5AFL2QFreYU" width="700" height="430" frameborder="0"></iframe></div>
+    <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="700" data-numposts="5"></div>
+    <footer th:insert="blocks/footer :: footer"></footer>
+</main>
+</body>
+</html>
